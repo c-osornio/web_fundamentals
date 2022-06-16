@@ -1,0 +1,58 @@
+*{
+    margin:20px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: green;
+    border-radius: 20px;
+    width: 90vw;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.nav {
+    background-color: yellow;
+    border-radius: 20px;
+    height: 20vh;
+    width: 86vw;
+    padding-top: 7vh;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.link {
+    padding-left: 40vw;
+    font-size: 30px;
+}
+
+
+.box1 {
+    background-color: blue;
+    border-radius: 20px;
+    height: 30vh;
+    width: 30vw;
+    display: inline-block;
+    align-items: center;
+    margin:5vw;
+    color:white;
+    text-align:center;
+    justify-content: center;
+}
+
+.box2 {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    height: 30vh;
+    width: 30vw;
+    display:inline-block;
+    text-align:center;
+    vertical-align: top;
+    margin: 5vw;
+}

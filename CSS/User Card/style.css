@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid rgb(187, 187, 187);
+    background: linear-gradient(180deg, #17a2b8 30%, #fff 30%);
+    font-family: cursive;
+    overflow: hidden;
+}
+
+.user-card {
+    width: 100%;
+}
+
+.profile {
+    border: .2rem solid silver;
+    border-radius: 50%;
+    height: 125px;
+}
+
+.name {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.map-marker {
+    height: 20px;
+}
+
+.city {
+    vertical-align: top;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.table {
+    width: 40%;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+th {
+    border: .1rem solid black;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.gear {
+    height: 20px;
+    margin-top: 10px;
+}
+
+a {
+    color: #17a2b8;
+}

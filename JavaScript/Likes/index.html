@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1 class="nav-title">Network</h1>
+    </nav>
+    <div class="main-title">
+        <h1>Your Feed</h1>
+    </div>
+    <main>
+        <div class="profile-container">
+            <div class="profile">
+                <img src="assets\user-circle.png" alt="profile icon">
+                <p>
+                    <a href="#"> Add an avatar</a>
+                </p>
+                <h1 class="profile-name">James Doe</h1>
+            </div>
+        </div>
+        <div class="feed-container">
+            <div class="new-post">
+                <div class="feed-title">
+                    <div class="username">
+                        <h1>Neil M</h1>
+                    </div>
+                    <div class="feed-likes">
+                        <span id="post-1">9 like(s)</span>
+                        <button class="like" onclick="addLike(0)">Like</button>
+                    </div>
+                </div>
+                <div class="feed-content">
+                    <h3>I just set  up this new discord bot, let me know what you all think. <a href="#">link</a></h3>
+                </div>
+            </div>
+            <div class="new-post">
+                <div class="feed-title">
+                    <div class="username">
+                        <h1>Nichole K</h1>
+                    </div>
+                    <div class="feed-likes">
+                        <span id="post-2">12 like(s)</span>
+                        <button class="like" onclick="addLike(1)">Like</button>
+                    </div>
+                </div>
+                <div class="feed-content">
+                    <h3>Just finished my <a href="#">next comic</a>, check it out.</h3>
+                </div>
+            </div>
+            <div class="new-post">
+                <div class="feed-title">
+                    <div class="username">
+                        <h1>Jim R</h1>
+                    </div>
+                    <div class="feed-likes">
+                        <span id="post-3">9 like(s)</span>
+                        <button class="like" onclick="addLike(2)">Like</button>
+                    </div>
+                </div>
+                <div class="feed-content">
+                    <h3>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

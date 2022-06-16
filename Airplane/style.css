@@ -1,0 +1,33 @@
+#sky {
+    background-image: url(assets/aerial-view.jpg);
+    width: 2000px;
+    height: 1000px;
+    margin: 0 auto;
+    border: 3px solid purple;
+}
+
+.player {
+    width: 100px;
+    height: 100px;
+    background-image: url(assets/plane-sm.png);
+    position: absolute;
+}
+
+.enemy {
+    width: 100px;
+    height: 100px;
+    background-image: url(assets/alien-ship-sm.png);
+    position: absolute;
+}
+
+body {
+    background: linear-gradient(to left, steelblue, lime);
+    text-align: center;
+}
+
+.missile {
+    width: 2px;
+    height: 10px;
+    background-color: lime;
+    position: absolute;
+}

@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(48, 46, 46);
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-pages {
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.sign-out {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    box-shadow: 3px 3px black;
+    background-color: #17a2b8;
+    border: 2pt solid black;
+    font-size: 1.10rem;
+    font-weight: bold;
+    width: 100px;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.user-card {
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    border: 2px solid rgb(187, 187, 187);
+    background: linear-gradient(180deg, #17a2b8 30%, #fff 30%);
+    margin-right: 40px;
+}
+
+.profile {
+    border: .2rem solid silver;
+    border-radius: 50%;
+    height: 125px;
+}
+
+#name {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.map-marker {
+    height: 20px;
+}
+
+.city {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.gear {
+    height: 20px;
+    margin-top: 10px;
+}
+
+.requests {
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(187, 187, 187);
+    background: linear-gradient(180deg, #575858 30%, #fff 30%);
+    overflow: hidden;
+}
+
+.request-title,
+.connections-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.request-title {
+    height: 30%;
+}
+
+.circle-bg {
+    background-color: #6f6;
+    border-radius: 25px;
+    padding: 0 6px;
+    margin-right: 4px;
+}
+
+.request-approval {
+    height: 70%;
+    overflow: hidden;
+}
+
+.profile2 {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.new-request, .new-request2 {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.name-box {
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 70px;
+}
+
+.edu {
+    border: 2px solid rgb(187, 187, 187);
+    width: 520px;
+    height: 100px;
+    background: linear-gradient(180deg, #575858 25%, #fff 25%);
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.edu-title {
+    color: white;
+    height: 25%;
+}
+
+.edu-content {
+    padding: 10px 0;
+    font-weight: 900;
+}
+
+.important {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.date {
+    color: gray;
+    font-size: .8rem;
+}
+
+h4 {
+    font-size: 10pt;
+}
+
+.your-connections {
+    width: 300px;
+    border: 2px solid rgb(187, 187, 187);
+    background: linear-gradient(180deg, #575858 20%, #fff 20%);
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.connection {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.connections-container {
+    height: 70%;
+    overflow: hidden;
+}
+
+.connections-title {
+    height: 40px;
+}
+
+.view-more {
+    width: 290px;
+    height: 28px;
+    border: 2px solid rgb(187, 187, 187);
+    border-top: hidden;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.blue {
+    color: blue;
+}

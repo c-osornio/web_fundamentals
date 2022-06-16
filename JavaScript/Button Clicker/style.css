@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+}
+
+.nav-bar {
+    background-color: #3f3e3e;
+    width: 1250px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    padding-left: 40px;
+    font-size: 2.5rem;
+}
+
+.search-bar {
+    width: 600px;
+    height: 40px;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+.login {
+    margin-right: 40px;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    height: 40px;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    background-color: #606
+}
+
+main {
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.left-container {
+    flex: 2;
+}
+
+.right-container {
+    flex: 1;
+}
+
+.word-card {
+    border: 4px solid black;
+    flex: 2;
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+    height: 300px;
+    margin-right: 80px;
+}
+
+.word {
+    flex: 1;
+}
+
+.definition {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.right-container {
+    border: 4px solid black;
+    margin-top: 40px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-title {
+    padding: 20px 50px;
+    font-size: 2.5rem;
+}
+
+span {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+.likes,
+.add {
+
+    height: 50px;
+    padding: 0 40px;
+    font-size: 2rem;
+    box-shadow: 5px 5px 5px black;
+}
+
+.likes {
+    background-color: lime;
+    margin-top: 40px;
+}
+
+.add {
+    width: 75%;
+    background-color: aqua;
+}
